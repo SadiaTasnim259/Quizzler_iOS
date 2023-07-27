@@ -38,6 +38,9 @@
                                                 <buttonConfiguration key="configuration" style="tinted" title="Choice 1">
                                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="answerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZGC-80-OP4"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sfs-qI-DRO">
                                                 <rect key="frame" x="0.0" y="85" width="377" height="70"/>
@@ -49,6 +52,9 @@
                                                 <buttonConfiguration key="configuration" style="tinted" title="Choice 2">
                                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="answerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WtS-rP-6KP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N87-h1-pYV">
                                                 <rect key="frame" x="0.0" y="170" width="377" height="70"/>
@@ -60,6 +66,9 @@
                                                 <buttonConfiguration key="configuration" style="tinted" title="Choice 3">
                                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="answerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pfa-p8-Vhc"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -71,7 +80,7 @@
                                             <constraint firstItem="sfs-qI-DRO" firstAttribute="leading" secondItem="Ngn-Ir-o4a" secondAttribute="leading" id="ZBy-Ba-jy3"/>
                                         </constraints>
                                     </stackView>
-                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="C44-lT-Y74">
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="C44-lT-Y74">
                                         <rect key="frame" x="8" y="803" width="377" height="4"/>
                                         <color key="tintColor" red="0.47677564620000001" green="0.19270673390000001" blue="0.4361556768" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </progressView>
